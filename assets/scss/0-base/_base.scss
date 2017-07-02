@@ -1,0 +1,39 @@
+@import '_variables';
+@import '_mixins';
+
+/* Base Styles*/
+
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    color: $base-font-color;
+}
+
+a {
+    color: $primary-color;
+}
+
+ul,
+li {
+    list-style: none;
+    display: inline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $primary-color;
+    margin-bottom: 0.5em;
+}
+
+.monospace {
+    margin-top: 1em;
+    font-family: monospace;
+}
+
+h3 {
+    margin-bottom: 1em;
+}
