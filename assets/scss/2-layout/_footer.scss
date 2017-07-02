@@ -1,0 +1,27 @@
+.footer {
+    ul li {
+        display: block;
+    }
+    &__top {
+        .container {
+            border-top: 5px solid $primary-border-color;
+            padding: 5% 0;
+        }
+    }
+    &__discover {
+        @include hide('mobile');
+    }
+    &__social {
+        @include hide('mobile');
+        .col-m-2 {
+            margin-right: 2em;
+        }
+    }
+    &__bot {
+        box-shadow: -2px 0 2px 2px rgba(0, 0, 0, 0.1);
+        @extend %flex-center;
+        justify-content: space-between;
+        margin-right: 2em;
+        padding: 4% 5%;
+    }
+}

@@ -9,6 +9,9 @@
         @for $i from 1 through $columns {
             .col-#{$screen}-#{$i} {
                 width: column-width($i);
+                display: inline-block;
+                vertical-align: top;
+                margin: -1.4px;
             }
         }
     }
@@ -23,11 +26,6 @@ $width in $breakpoints {
 @mixin hide($screen-size) {
     @if $screen-size=='mobile' {
         @media (max-width: 460px) {
-            display: none;
-        }
-    }
-    @else if $screen-size=='desktop' {
-        @media (min-width: 460px) {
             display: none;
         }
     }
