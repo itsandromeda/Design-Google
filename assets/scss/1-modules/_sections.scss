@@ -75,11 +75,16 @@
             margin: 0;
         }
     }
-    .asana {
+    .feat {
         display: flex;
         align-items: center;
+        border-top: 5px solid $secondary-color;
+        padding-top: 5%;
         div:first-child {
             margin-right: 3%;
+        }
+        img[alt="Conno O'Sullivan"] {
+            border-radius: 50%;
         }
     }
 }
