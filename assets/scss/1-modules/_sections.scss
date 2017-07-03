@@ -75,10 +75,13 @@
             margin: 0;
         }
     }
+    .message {
+        border-top: 5px solid $secondary-color;
+        padding-top: 5%;
+    }
     .feat {
         display: flex;
         align-items: center;
-        border-top: 5px solid $secondary-color;
         padding-top: 5%;
         div:first-child {
             margin-right: 3%;
