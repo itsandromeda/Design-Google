@@ -694,32 +694,35 @@ a {
     .more-articles .feat img[alt="Conno O'Sullivan"] {
       border-radius: 50%; }
 
-.brand-recognition {
+.slider {
   padding-bottom: 5em; }
-  .brand-recognition p {
+  .slider p {
     margin-top: 0;
     margin-bottom: 1em; }
-  .brand-recognition article {
+  .slider article {
     margin-bottom: 2em; }
-  .brand-recognition .monospace {
+  .slider .monospace {
     margin-bottom: 1em; }
-  .brand-recognition__header .container {
+  .slider__header .container {
     align-content: space-around;
     padding: 4% 0 2%;
     border-top: 5px solid #4285f4; }
-    .brand-recognition__header .container .extras {
+    .slider__header .container .extras {
       color: #4285f4;
       float: right; }
-  .brand-recognition__articles {
+  .slider__articles {
     padding-left: 5%; }
-  .brand-recognition__articles:first-child {
+  .slider__articles:first-child {
     padding: 0; }
-  .brand-recognition img {
+  .slider img {
     margin-bottom: 1.5em;
     width: 100%; }
+  .slider .social img {
+    height: 30px;
+    width: 30px; }
 
 /* Header */
-.section-newsfeed__header .container, .section-newsfeed .newsletter, .brand-recognition__header .container, .header .container, .footer__bot {
+.section-newsfeed__header .container, .section-newsfeed .newsletter, .slider__header .container, .header .container, .footer__bot {
   display: flex;
   justify-content: center;
   align-items: center; }
