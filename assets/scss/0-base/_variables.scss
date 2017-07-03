@@ -2,11 +2,10 @@ $base-font-family: 'Roboto' sans-serif;
 $base-font-size: 15px;
 $base-font-color: #414549;
 $primary-color: #333;
+$secondary-color: #4285f4;
 //Header
 $header-spacing: 4em;
 //Grid
 $columns: 12;
 $column-width: 100%/$columns;
 $breakpoints: (xs: 0, s: 768px, m: 992px, l: 1200px);
-//Border
-$primary-border-color: #4285f4;

@@ -1,10 +1,12 @@
+/* Footer */
+
 .footer {
     ul li {
         display: block;
     }
     &__top {
         .container {
-            border-top: 5px solid $primary-border-color;
+            border-top: 5px solid $secondary-color;
             padding: 5% 0;
         }
     }
@@ -22,6 +24,6 @@
         @extend %flex-center;
         justify-content: space-between;
         margin-right: 2em;
-        padding: 4% 5%;
+        padding: 4% 6%;
     }
 }

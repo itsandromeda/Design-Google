@@ -615,7 +615,7 @@ h3 {
 
 .container {
   position: relative;
-  margin: 0 5%; }
+  margin: 0 6%; }
 
 a {
   text-decoration: none; }
@@ -641,7 +641,34 @@ a {
   .section-showcase__content {
     margin-top: 2em; }
 
-.header .container, .footer__bot {
+.section-newsfeed {
+  padding-bottom: 5em; }
+  .section-newsfeed p {
+    margin-top: 0;
+    margin-bottom: 0.5em; }
+  .section-newsfeed article {
+    margin-bottom: 2em; }
+  .section-newsfeed .monospace {
+    margin-bottom: 1em; }
+  .section-newsfeed__header .container {
+    align-content: space-around;
+    padding: 4% 0 2%;
+    border-top: 5px solid #4285f4; }
+    .section-newsfeed__header .container .more-news {
+      color: #4285f4;
+      float: right; }
+  .section-newsfeed__articles .wrapper {
+    padding-right: 5%; }
+  .section-newsfeed img[alt="Google Design New"] {
+    margin-bottom: 1.5em;
+    width: 100%; }
+  .section-newsfeed .newsletter {
+    margin-top: 2em;
+    padding: 4% 5%;
+    background-color: #f9f9f9; }
+
+/* Header */
+.section-newsfeed__header .container, .section-newsfeed .newsletter, .header .container, .footer__bot {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -673,6 +700,7 @@ a {
     .header__nav {
       display: none; } }
 
+/* Footer */
 .footer ul li {
   display: block; }
 .footer__top .container {
@@ -690,6 +718,6 @@ a {
   box-shadow: -2px 0 2px 2px rgba(0, 0, 0, 0.1);
   justify-content: space-between;
   margin-right: 2em;
-  padding: 4% 5%; }
+  padding: 4% 6%; }
 
 /*# sourceMappingURL=main.css.map */
