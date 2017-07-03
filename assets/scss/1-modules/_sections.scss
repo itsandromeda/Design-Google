@@ -83,3 +83,37 @@
         }
     }
 }
+
+.brand-recognition {
+    padding-bottom: 5em;
+    p {
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+    article {
+        margin-bottom: 2em;
+    }
+    .monospace {
+        margin-bottom: 1em;
+    }
+    &__header .container {
+        @extend %flex-center;
+        align-content: space-around;
+        padding: 4% 0 2%;
+        border-top: 5px solid $secondary-color;
+        .extras {
+            color: $secondary-color;
+            float: right;
+        }
+    }
+    &__articles {
+        padding-left: 5%;
+    }
+    &__articles:first-child {
+        padding: 0;
+    }
+    img {
+        margin-bottom: 1.5em;
+        width: 100%;
+    }
+}
